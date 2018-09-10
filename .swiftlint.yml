@@ -1,5 +1,6 @@
 swiftlint_version: 0.21.0
 disabled_rules:
+  - trailing_whitespace
   - cyclomatic_complexity
   - force_cast
   - force_try
