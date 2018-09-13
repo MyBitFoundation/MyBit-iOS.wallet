@@ -47,7 +47,7 @@ struct Config {
     var chainID: Int {
         get {
             let id = defaults.integer(forKey: Keys.chainID)
-            guard id > 0 else { return RPCServer.ropsten.chainID }
+            guard id > 0 else { return RPCServer.main.chainID }
             return id
         }
         set { defaults.set(newValue, forKey: Keys.chainID) }

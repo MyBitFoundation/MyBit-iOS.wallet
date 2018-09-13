@@ -4,12 +4,12 @@ import Foundation
 
 struct MyBitTokenParameters {
     
-    static let decimals: Int = 8
+    static let decimals: Int = 18
     static let symbol: String = "MYB"
     static let name: String = "MyBit"
     
-    fileprivate static let mainContractAddress = "0x94298F1e0Ab2DFaD6eEFfB1426846a3c29D98090"
-    fileprivate static let ropsternContractAddress = "0x8abaf4191951d4b92c688182a36628ec5f19f769"
+    fileprivate static let mainContractAddress = "0x5d60d8d7ef6d37e16ebabc324de3be57f135e0bc"
+    fileprivate static let ropsternContractAddress = "0xbb07c8c6e7cd15e2e6f944a5c2cac056c5476151"
     
     static func getContractAddress(for config: Config = .current) -> String? {
         
